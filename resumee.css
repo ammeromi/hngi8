@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 10px 80px;
+    display: block;
+    color: #444;
+    margin-bottom: 2em;
+    width: 80.2%;
+    line-height: 24px;
+    font-family: verdana;
+}
+
+a#pdf {
+    display: block;
+    float: left;
+    background: #666;
+    color: white;
+    padding: 6px 50px 6px 12px;
+    margin-bottom: 6px;
+    text-decoration: none;
+}
+
+a {
+    color: #990003;
+}
+
+h1, h2, h3, h4 {
+    color: #333;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h3, h4 {
+    font-size: 122%;
+}
+
+p {
+    font-family: verdana;
+}
+
+table, th, td, tr {
+    padding: 5px;
+    text-align: left;
+    font-family: verdana;
+}
+
+.header {
+    margin: 2.5em 0 3em 0;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid #ccc;
+}
+
+.ft {
+    padding: 1em 0 5em 0;
+    font-size: 92%;
+    text-align: center;
+}
+
+.info {
+    margin: 2.5em 0 3em 0;
+}
+
+.profile-one {
+    margin: 2.5em 0 3em 0;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid #ccc;
+}
+
+.profile-two {
+    margin: 2.5em 0 3em 0;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid #ccc;
+}
+
+.profile-three {
+    margin: 2.5em 0 3em 0;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid #ccc;
+}
+
+.list {
+    margin: 2.5em 0 3em 0;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo {
+    margin: auto;
+    width: 50%;
+    
+    padding: 10px;
+}
+/* Center the loader */
+#loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 120px;
+    height: 120px;
+    margin: -76px 0 0 -76px;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  /* Add animation to "page content" */
+  .animate-bottom {
+    position: relative;
+    color: rgb(87, 5, 5);
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+  }
+  
+  @-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+  }
+  
+  @keyframes animatebottom { 
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+  }
+  
+  #myDiv {
+    display: none;
+    text-align: center;
+  }
